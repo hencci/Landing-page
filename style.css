@@ -81,3 +81,32 @@ img, picture, video, canvas, svg {
     height: auto;
     min-width: 300px;
 }
+
+.more-cats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.more-images {
+    display: flex;
+    gap: 30px;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    font-size: 12px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.cat img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
