@@ -54,6 +54,7 @@ img, picture, video, canvas, svg {
 
 .header2 {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     padding: 40px 0;
 }
@@ -78,4 +79,5 @@ img, picture, video, canvas, svg {
 #image1 {
     width: 500px;
     height: auto;
+    min-width: 300px;
 }
