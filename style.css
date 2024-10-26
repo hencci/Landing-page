@@ -147,10 +147,30 @@ img, picture, video, canvas, svg {
     color: white;
 }
 
+#call {
+    font-weight: 700;
+}
+
+.action p:last-child {
+    font-size: 12px;
+    font-weight: 100;
+}
+
 .sign-up button {
     width: 70px;
     padding: 5px 10px;
     background-color: #3882F6;
     color: white;
     border: 1px solid white;border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    color: white;
+    font-size: 12px;
 }
