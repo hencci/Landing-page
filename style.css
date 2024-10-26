@@ -118,7 +118,7 @@ img, picture, video, canvas, svg {
 .quote-text {
     width: 600px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .quote-text p:first-child {
@@ -128,4 +128,29 @@ img, picture, video, canvas, svg {
 
 .quote-text p:last-child {
     text-align: end;
+}
+
+.sign-up {
+    padding: 70px 100px;
+}
+
+.sign-up-content {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 35px 70px;
+    border-radius: 5px;
+    color: white;
+}
+
+.sign-up button {
+    width: 70px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;border-radius: 5px;
 }
