@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 6rem;
+    background-color: #1F2937;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.first-link {
+    font-weight: 700;
+}
+
+.second-link {
+    font-size: 0.8rem;
+    color: wheat;
+}
+.header1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.second-link ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header2 button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+#image1 {
+    width: 500px;
+    height: auto;
+    min-width: 300px;
+}
+
+.more-cats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.more-images {
+    display: flex;
+    gap: 30px;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    font-size: 12px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.cat img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    width: 600px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.quote-text p:first-child {
+    color: #1F2937;
+    font-size: 20px;
+}
+
+.quote-text p:last-child {
+    text-align: end;
+}
+
+.sign-up {
+    padding: 70px 100px;
+}
+
+.sign-up-content {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 35px 70px;
+    border-radius: 5px;
+    color: white;
+}
+
+#call {
+    font-weight: 700;
+}
+
+.action p:last-child {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.sign-up button {
+    width: 70px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    color: white;
+    font-size: 12px;
+}
