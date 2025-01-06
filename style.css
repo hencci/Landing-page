@@ -64,6 +64,7 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 0.8rem;
 }
 
 .header2 button {
@@ -77,9 +78,9 @@ img, picture, video, canvas, svg {
 }
 
 #image1 {
-    width: 500px;
+    width: 50%;
     height: auto;
-    min-width: 300px;
+    min-width: 150px;
 }
 
 .more-cats {
@@ -116,7 +117,7 @@ img, picture, video, canvas, svg {
 }
 
 .quote-text {
-    width: 600px;
+    width: 50%;
     margin: 0 auto;
     padding: 70px 0;
 }
