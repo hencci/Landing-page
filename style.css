@@ -89,6 +89,8 @@ img, picture, video, canvas, svg {
     justify-content: center;
     align-items: center;
     padding: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .more-images {
